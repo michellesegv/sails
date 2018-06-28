@@ -32,9 +32,9 @@ module.exports.datastores = {
   *                                                                          *
   ***************************************************************************/
 
-  default: {
+  root: {
     adapter: require('sails-mysql'),
-    url: 'mysql://root:qpalwosk10@localhost:3306/db_app',
+    url: 'mysql://root:qpalwosk10@localhost1:3306/library',
     /***************************************************************************
     *                                                                          *
     * Want to use a different database during development?                     *
